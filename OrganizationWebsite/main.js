@@ -49,3 +49,7 @@ menu_item.forEach(item=>{
         mobile_menu.classList.toggle('active');
     });
 });
+
+// function lockScroll() {
+//     document.body.classList.toggle('lock-scroll');
+// }
