@@ -402,9 +402,6 @@ footer {
   .hamburger {
     height: 60px;
     width: 60px;
-    display: inline-block;
-    border: 3px solid white;
-    border-radius: 50%;
     position: fixed;
     top: 19px;
     right: 0;
@@ -414,7 +411,7 @@ footer {
     z-index: 3;
     margin-right: 60px;
     cursor: pointer;
-    transform: scale(0.9);
+    // transform: scale(0.9);
     .bar {
       height: 2px;
       width: 30px;
@@ -467,20 +464,6 @@ footer {
         transform: translate(-50%, -50%) scale(1);
         letter-spacing: initial;
       }
-      a {
-        &::after {
-          content: attr(data-after);
-          position: absolute;
-          top: 50%;
-          left: 50%;
-          transform: translate(-50%, -50%) scale(0);
-          color: rgba(240, 248, 255, 0.021);
-          font-size: 8rem;
-          letter-spacing: 50px;
-          z-index: -1;
-          transition: 0.5s ease letter-spacing;
-        }
-      }
       .different {
         padding-bottom: 50px;
         float: left;
@@ -494,25 +477,6 @@ footer {
   .header-links.active {
     left: 0;
   }
-  //   .combined {
-  //     // position: relative;;
-  //     // flex-direction: row-reverse !important;
-  //     display: flex !important;
-
-  //     .services-text {
-  //       order: 2 !important;
-  //       //   h3 {
-  //       //     display: flex !important;
-  //       //     order: 2 !important;
-  //       //   }
-  //       //   p {
-  //       //     order: 1 !important;
-  //       //   }
-  //     }
-  //     .image {
-  //       order: 1 !important;
-  //     }
-  //   }
   .together {
     img {
       padding-bottom: 30px;

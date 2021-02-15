@@ -410,9 +410,6 @@ footer .site-footer .contact-links a:hover {
   .hamburger {
     height: 60px;
     width: 60px;
-    display: inline-block;
-    border: 3px solid white;
-    border-radius: 50%;
     position: fixed;
     top: 19px;
     right: 0;
@@ -422,7 +419,6 @@ footer .site-footer .contact-links a:hover {
     z-index: 3;
     margin-right: 60px;
     cursor: pointer;
-    transform: scale(0.9);
   }
   .hamburger .bar {
     height: 2px;
@@ -476,18 +472,6 @@ footer .site-footer .contact-links a:hover {
   .header-links li:hover a::after {
     transform: translate(-50%, -50%) scale(1);
     letter-spacing: initial;
-  }
-  .header-links li a::after {
-    content: attr(data-after);
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%) scale(0);
-    color: rgba(240, 248, 255, 0.021);
-    font-size: 8rem;
-    letter-spacing: 50px;
-    z-index: -1;
-    transition: 0.5s ease letter-spacing;
   }
   .header-links li .different {
     padding-bottom: 50px;
