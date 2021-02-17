@@ -217,6 +217,16 @@ body {
   width: 100%;
   border-radius: 65px;
 }
+.section-3 .services-video {
+  width: 100%;
+}
+.section-3 .services-video .video-heading {
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+.section-3 .services-video .video video {
+  height: 76vh;
+}
 
 .section-4 {
   margin-top: 70px;
@@ -489,9 +499,16 @@ footer .site-footer .contact-links a:hover {
   .together img {
     padding-bottom: 30px;
   }
+  .together .services-text {
+    padding-bottom: 30px;
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+  }
 
   .combined .services-text {
     padding-bottom: 30px;
+    padding-right: 0 !important;
+    padding-left: 0 !important;
   }
 }
 @media screen and (max-width: 600px) {
@@ -501,6 +518,22 @@ footer .site-footer .contact-links a:hover {
 
   .section-1 h1 {
     font-size: 36px !important;
+  }
+}
+@media screen and (max-width: 500px) {
+  .video-heading {
+    padding-bottom: 0 !important;
+  }
+
+  .video video {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 425px) {
+  video {
+    height: 58vh !important;
   }
 }
 @keyframes text_reveal_box {
